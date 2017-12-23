@@ -6,8 +6,8 @@ def load_library(file_path)
   library = {}
   file.each do |meaning, emoticons|
     binding.pry
-    library["get_meaning"] = {emoticons[0] = meaning}
-    binding.pry 
+    library["get_meaning"] = {}
+    binding.pry
   end
 end
 
