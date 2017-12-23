@@ -5,11 +5,10 @@ def load_library(file_path)
   file = YAML.load_file(file_path)
   library = {}
   file.each do |meaning, emoticons|
-    binding.pry
     library["get_meaning"] = {emoticons[1] => meaning}
     library["get_emoticon"] = {emoticons[0] => emoticons[1]}
-    binding.pry
   end
+  library
 end
 
 def get_japanese_emoticon(emoticon)
