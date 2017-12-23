@@ -9,6 +9,7 @@ def load_library(file_path)
     library["get_emoticon"] = {emoticons[0] => emoticons[1]}
   end
   library
+  puts library
 end
 
 def get_japanese_emoticon(emoticon)
