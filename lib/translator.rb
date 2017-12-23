@@ -8,7 +8,6 @@ def load_library(file_path)
     library["get_meaning"][emoticons[1]] = meaning
     library["get_emoticon"][emoticons[0]] = emoticons[1]
   end
-  binding.pry
   library
 end
 
